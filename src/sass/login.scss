@@ -1,0 +1,137 @@
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl, dt, dd, input{
+	margin: 0;
+	padding: 0;
+}
+li{list-style: none;}   //去列表前的点
+a{color:black;text-decoration: none;}//去掉下划线
+.header{
+	width:1200px;
+	height:82px;
+	margin:0 auto;
+	padding-top:23px;
+	.logo{
+		width:220px;
+		height:52px;
+		float:left;
+		img{
+			width:100%;
+			height:100%;
+		}
+	}
+	.menu{
+		float: left;
+		padding-top:12px;
+		width:588px;
+		height: 40px;
+		text-align:right;
+		float:right;
+		li{
+			float: left;
+			width:147px;
+			height:28px;
+			line-height:28px;
+			position:relative;
+			i{	
+				position:absolute;
+				left:40px;
+				width:25px;
+				height:27px;
+				display:inline-block;//背景图不能撑高
+			}
+			.a1{
+				background:url('../../src/img/20170501152229888.jpg') no-repeat 0 0;
+			}
+			.a2{
+				background:url('../../src/img/20170501152149968.jpg') no-repeat 0 0;
+			}
+			.a3{
+				background:url('../../src/img/20170501152215021.jpg') no-repeat 0 0;
+			}
+			.a4{
+				background:url('../../src/img/20170501152201168.jpg') no-repeat 0 0;
+			}
+			span{
+				font-size:18px;
+				color:#666666;
+			}
+		}
+	}
+}
+
+.bg{
+	position:relative;
+	height:476px;
+	width:100%;
+	background:url(../../src/img/login-bg_03.jpg) no-repeat center top;
+	.login1{
+		position:absolute;
+		top:84px;
+		left:968px;
+		width:360px;
+		height:269px;
+		padding:22px 20px;
+		background:#ffffff;
+		.login-init{
+			height:24px;
+			margin-bottom:16px;
+			lien-height:24px;
+			.span1{
+				float:left;
+				font-size:21px;
+				color:#000000;
+				font-weight:800;
+			}
+			.span2{
+				float:right;
+				font-size:13px;
+				color:#e60012;
+			}
+		}
+		.input-1{
+			height:42px;
+			border:1px solid #cccccc;
+			margin-bottom:25px;
+			i{
+				display:inline-block;
+				width:36px;
+				height:44px;
+				background:url(../../src/img/login-icon.png) no-repeat 48px 327px;
+			}
+		}
+		.input-2{
+			height:42px;
+			margin-bottom:29px;
+			border:1px solid #cccccc;
+			i{
+				display:inline-block;
+				width:36px;
+				height:44px;
+				background:url(../../src/img/login-icon.png) no-repeat 48px  371px;
+			}
+		}
+		
+		.denglu{
+			height:42px;
+			background:#e60012;
+			color:#ffffff;
+			font-size:18px;
+			text-align:center;
+			line-height:42px;
+			margin-bottom:28px;
+		}
+		.forget{
+			text-align:right;
+			font-size:12px;
+			color:#666666;
+		}
+	}
+}
+.foot{
+	width:1200px;
+	height:172px;
+	margin:0 auto;
+	ul{
+		width:580px;
+		margin:0 auto;
+	}
+}

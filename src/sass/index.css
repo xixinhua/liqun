@@ -434,15 +434,15 @@ a{color:black;text-decoration: none;}/*去掉下划线*/
 	height: 67px;
 }
 
-.biqiang{
+
+/*.biqiang{
 	width: 1200px;
 	margin: 0 auto;
-	/* overflow: hidden; */
 	border: 1px solid gray;
 }
-/* .biqiang ul{
+.biqiang ul{
 	width: 1200px;
-} */
+}
 	border: 1px solid gray;
 
 }
@@ -451,6 +451,7 @@ a{color:black;text-decoration: none;}/*去掉下划线*/
 	width: 231px;
 	border: 1px solid gray;
 }
+*/
 
 .list1{
 	width: 1200px;
