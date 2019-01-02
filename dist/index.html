@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="../src/sass/index.css"/>
 	</head>
 	<body>
+<div class="dabg">
 	<div class="dingbu">
 			<div class="banxin">
 				<div class="left">
@@ -32,6 +33,7 @@
 			<div class="search">
 				<input type="text" name="search-text" id="search-text" placeholder="" />
 				<a href="#"><span>搜索</span></a>
+				<p>热门搜索: 白菜 大米 海天 娃哈哈 螃蟹</p>
 			</div>
 			<div class="cart">
 				<a href="#">
@@ -47,7 +49,7 @@
 				<i></i>全部分类
 			</span>
 			<ul>
-				<li><a href="#">利群网商</a></li>
+				<li><a href="#" class="liqun">利群网商</a></li>
 				<li><a href="#">新鲜水果</a></li>
 				<li><a href="#">零食专场</a></li>
 				<li><a href="#">家居日用</a></li>
@@ -61,7 +63,8 @@
 		</div>
 		
 	<div class="nav-center">
-			<ul>
+		<div class="nav-center-l">
+				<ul>
 				<li><span></span><a href="#">便利店</a><i></i></li>
 				<li><span></span><a href="#">酒店及食堂</a><i></i></li>
 				<li><span></span><a href="#">办公物料</a><i></i></li>
@@ -69,9 +72,21 @@
 				<li><span></span><a href="#">家装电器</a><i></i></li>
 				<li><span></span><a href="#">数码生活</a><i></i></li>
 			</ul>
-			<div class="lunbo">
-				
+		</div>
+	
+			<div id="slide1" class="container">
+				<ul>
+					<li><a href="http://www.1000phone.com" class="aa"><img src="../src/img/20181221085416029.jpg"></a></li>
+					<li><a href="http://www.1000phone.com" class="aa"><img src="../src/img/20181221085318231.jpg"></a></li>
+					<li><a href="http://www.1000phone.com" class="aa"><img src="../src/img/20181203150630468.jpg"></a></li>
+					<li><a href="http://www.1000phone.com" class="aa"><img src="../src/img/20181129173201662.jpg"></a></li>
+					<li><a href="http://www.1000phone.com" class="aa"><img src="../src/img/20181128174840389.jpg"></a></li>
+					<li><a href="http://www.1000phone.com" class="aa"><img src="../src/img/20181001103750563.jpg"></a></li>
+				</ul>
 			</div>
+			
+			
+			
 			<div class="nav-center-right">
 				<div class="right-top">
 					<i></i>
@@ -109,46 +124,65 @@
 				</ul>
 			</div>
 		</div>
+</div>	
 	<div class="xianshi">
-			<img src="../src/img/xsqg.jpg">
+		<div class="timer">
+			<span>本场还剩</span>
+			<div id="shi"></div>
+			<span class="shishi">时</span>
+			<div id="fen"></div>
+			<span class="fenfen">分</span>
+			<div id="miao">	</div>
+			<span class="miaomiao">秒</span>
 		</div>
+	</div>
 	
-	<!-- <div class="biqiang">
+	<div class="biqiang">
 			<ul>
 				<li><a href="#"><img src="../src/img/20181221090415289.jpg" alt="">
-					<p></p>
-					<span>￥ 2.68</span>
-					<div class="font-icon">抢</div>
+					<p>祥悠长粒香25kg</p>
+					<div class="qiang">
+						<span>￥ 2.68</span>
+						<div class="font-icon">抢</div>
+					</div>
 				</a></li>
 				
 				<li><a href="#">
 					<img src="../src/img/20181221090435007.jpg" alt="">
-					<p></p>
-					<span>￥ 2.68</span>
-					<div class="font-icon">抢</div>
+					<p>纽仕兰牧场3.6kg全脂牛奶</p>
+					<div class="qiang">
+						<span>￥ 47.8</span>
+						<div class="font-icon">抢</div>
+					</div>
 				</a></li>
 				
 				<li><a href="#">
 					<img src="../src/img/20181221090526316.jpg" alt="">
-					<p></p>
-					<span>￥ 2.68</span>
-					<div class="font-icon">抢</div>
+					<p>牛栏山陈酿42度500ml</p>
+					<div class="qiang">
+						<span>￥ 11.8</span>
+						<div class="font-icon">抢</div>
+						</div>
 				</a></li>
 				
 				<li><a href="#">
 					<img src="../src/img/20181221090546783.jpg" alt="">
-					<p></p>
-					<span>￥ 2.68</span>
-					<div class="font-icon">抢</div>
+					<p>雀巢咖啡1 + 2原味7条装</p>
+					<div class="qiang">
+						<span>￥ 6.9</span>
+						<div class="font-icon">抢</div>
+					</div>
 				</a></li>
 						
 				<li><a href="#"><img src="../src/img/20181221090507939.jpg" alt="">
-						<p></p>
-						<span>￥ 2.68</span>
-						<div class="font-icon">抢</div>
+						<p>海天蚝油6kg</p>
+						<div class="qiang">
+							<span>￥ 33.8</span>
+							<div class="font-icon">抢</div>
+						</div>
 				</a></li>
 			</ul>
-		</div> -->
+		</div>
 	
 	<div class="list1">
 			<div class="text">
@@ -441,6 +475,9 @@
 			</div>
 			</div>
 				<div class="banxin-b">
+					<div class="liangzheng">
+						<img src="../src/img/liangzheng.jpg" alt="">
+					</div>
 					<ul>
 						<li><a href="#">利群集团</a></li>
 						<li><a href="#">百货集团</a></li>
@@ -452,8 +489,10 @@
 						<li><a href="#">利群水站</a></li>
 						<li><a href="#">利群家政</a></li>
 					</ul>
-					<p>鲁公网安备 37020302370480 | 鲁ICP证09054331号-2</p>
-					<img src="../src/img/beian.png" alt="">
+					<div class="beian">
+					<img src="../src/img/beian.png" alt="">鲁公网安备 37020302370480 | 鲁ICP证09054331号-2
+					</div>
+					<p>Copyright©2004-2018 利群集团青岛电子商务有限公司 版权所有 </p> 
 				</div>
 			</div>
 			<div class="banxin-r">
@@ -462,5 +501,12 @@
 			</div>
 		</div>
 	</div>
+	<script src="jquery-1.10.1.js"></script>
+	<script src="js/jsES5min.js"></script>
+	<script type="text/javascript">
+		
+		new Slider("slide1");
+		
+	</script>
 	</body>
 </html>

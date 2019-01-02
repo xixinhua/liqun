@@ -68,13 +68,12 @@ a{color:black;text-decoration: none;}//去掉下划线
 		top:84px;
 		left:968px;
 		width:360px;
-		height:269px;
+		height:313px;
 		padding:22px 20px;
 		background:#ffffff;
 		.login-init{
-			height:24px;
-			margin-bottom:16px;
-			lien-height:24px;
+			height:60px;
+			lien-height:60px;
 			.span1{
 				float:left;
 				font-size:21px;
@@ -86,44 +85,66 @@ a{color:black;text-decoration: none;}//去掉下划线
 				font-size:13px;
 				color:#e60012;
 			}
-		}
-		.input-1{
-			height:42px;
-			border:1px solid #cccccc;
-			margin-bottom:25px;
-			i{
-				display:inline-block;
-				width:36px;
-				height:44px;
-				background:url(../../src/img/login-icon.png) no-repeat 48px 327px;
+		}	
+		form{
+			width:360px;
+			height:253px;
+				.input-1{
+					margin-bottom:25px;
+					.login-label{
+						display:inline-block;
+						width:36px;
+						height:44px;
+						background:url(../../src/img/login-icon.png) no-repeat 48px 327px;
+					}
+					input{
+						width:312px;
+						height:42px;
+						font-size:16px;
+						line-height:42px;
+						color:#333333;
+						border:1px solid #cccccc;
+					}
+				}
+			.input-2{
+				margin-bottom:29px;
+				.login-label{
+					display:inline-block;
+					width:36px;
+					height:44px;
+					background:url(../../src/img/login-icon.png) no-repeat 48px  371px;
+				}
+				input{
+					width:312px;
+					height:42px;
+					font-size:16px;
+					line-height:42px;
+					color:#333333;
+					border:1px solid #cccccc;
+				}
 			}
-		}
-		.input-2{
-			height:42px;
-			margin-bottom:29px;
-			border:1px solid #cccccc;
-			i{
-				display:inline-block;
-				width:36px;
-				height:44px;
-				background:url(../../src/img/login-icon.png) no-repeat 48px  371px;
+			
+			.denglu{
+				.btn-login{
+					background:#e60012;
+					width:360px;
+					height:44px;
+					color:#ffffff;
+					font-size:18px;
+					text-align:center;
+					line-height:42px;
+					margin-bottom:28px;
+				}
+			}
+			.forget{
+				a{
+				float:right;
+				font-size:12px;
+				color:#666666;
+				}
 			}
 		}
 		
-		.denglu{
-			height:42px;
-			background:#e60012;
-			color:#ffffff;
-			font-size:18px;
-			text-align:center;
-			line-height:42px;
-			margin-bottom:28px;
-		}
-		.forget{
-			text-align:right;
-			font-size:12px;
-			color:#666666;
-		}
 	}
 }
 .foot{
@@ -131,7 +152,27 @@ a{color:black;text-decoration: none;}//去掉下划线
 	height:172px;
 	margin:0 auto;
 	ul{
-		width:580px;
+		width:630px;
+		margin:30px auto 19px;
+		height:14px;//ul想要显示宽，必须设置高。
+		li{
+			float:left;
+			border-right:1px solid #666666;
+			width:88px;
+			height:14px;
+			text-align:center;
+			line-height:14px;
+			a{
+				color:#999999;
+				font-size:13px;
+			}
+		}
+	}
+	p{
+		width:499px;
+		height:12px;
 		margin:0 auto;
+		font-size:12px;
+		color:#999999;
 	}
 }

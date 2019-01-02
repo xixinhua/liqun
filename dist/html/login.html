@@ -20,24 +20,25 @@
 	<div class="bg">
 		<div class="login1">
 			<div class="login-init">
-				<span class="span!">欢迎登录</span>
+				<span class="span1">欢迎登录</span>
 				<span class="span2">快速注册</span>
 			</div>
-			<div class="input-1">
-				<i></i>
-				<input type="text" name="user"/>
+			<form action="get">
+				<div class="input-1">
+					<label for="account" class="login-label"></label>
+					<input type="text" id="account" placeholder="用户名/手机号"/>
+				</div>
+				<div class="input-2">
+					<label for="passwd" class="login-label"></label>
+					<input type="password" name="" id="password" placeholder="密码" />
+				</div>
+				<div class="denglu">
+					<button id="btn-login" class="btn-login">登录</button>
+				</div>
+				<div class="forget">
+					<a href="#">忘记密码？</a>
 			</div>
-			<div class="input-2">
-				<i></i>
-				<input type="text" name="pass"/>
-
-			</div>
-			<div class="denglu">
-				登录
-			</div>
-			<div class="forget">
-				忘记密码 ？
-			</div>
+			</form>
 		</div>
 	</div>
 	<div class="foot">

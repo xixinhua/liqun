@@ -30,5 +30,10 @@ gulp.task('default',function(){
 	gulp.watch('./src/sass/*.scss',['sass']);
 })
 
-
+gulp.task('js',function(){
+	gulp.src('./src/js/*.js')
+	.pipe(uglify())
+	.pipe(rename({'suffix' : 'min'}))
+	.pipe(gulp.dest('./dist/js'));
+})
 
