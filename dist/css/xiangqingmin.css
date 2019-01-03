@@ -162,7 +162,7 @@ a {
     .nav .nav1 .nav-list-top {
       display: inline-block;
       width: 200px;
-      height: 44px;
+      height: 42px;
       border-bottom: 2px solid #4178c4;
       background: #004098;
       font-size: 20px;
@@ -176,6 +176,387 @@ a {
         height: 17px;
         background: url(../../src/img/index-icon.png) no-repeat -45px -106px;
         margin: 13px 10px 0 20px; }
+    .nav .nav1 .nav-right {
+      width: 990px;
+      height: 42px;
+      float: left; }
+      .nav .nav1 .nav-right .nav-r-tab {
+        position: relative;
+        float: left;
+        padding-left: 30px;
+        margin-top: 12px;
+        font-size: 16px;
+        color: #666;
+        line-height: 30px;
+        background: url(../../src/img/nav-tab-r.png) no-repeat -5px 0; }
+        .nav .nav1 .nav-right .nav-r-tab span {
+          display: inline-block;
+          width: 67%;
+          height: 30px;
+          text-align: center;
+          padding: 0 15px;
+          cursor: default;
+          border-top: 1px solid #ccc;
+          border-left: 1px solid #ccc;
+          border-right: 1px solid #ccc;
+          background-color: #fff; }
+          .nav .nav1 .nav-right .nav-r-tab span i {
+            display: inline-block;
+            float: right;
+            width: 12px;
+            height: 6px;
+            margin: 12px 0;
+            background: url(../../src/img/goodslist-icon.png) no-repeat -203px -34px; }
+        .nav .nav1 .nav-right .nav-r-tab ul {
+          position: absolute;
+          top: 30px;
+          left: 30px;
+          display: none;
+          border-left: 1px solid #3960c7;
+          border-bottom: 1px solid #3960c7;
+          border-right: 1px solid #3960c7;
+          background-color: #fff;
+          overflow: hidden;
+          z-index: 999; }
+          .nav .nav1 .nav-right .nav-r-tab ul li {
+            display: inline-block;
+            float: left;
+            font-size: 14px;
+            line-height: 14px;
+            padding: 0 10px;
+            margin: 8px 0;
+            white-space: nowrap; }
+        .nav .nav1 .nav-right .nav-r-tab ul:nth-of-type(3) {
+          width: 200px; }
+
+.nav-r-tab:hover ul {
+  display: block; }
+
+.filter {
+  width: 1200px;
+  height: 167px;
+  margin: 0 auto; }
+  .filter .filter1 {
+    width: 1200px;
+    height: 84px;
+    border-bottom: 1px solid #ececec;
+    overflow: hidden; }
+    .filter .filter1 h5 {
+      float: left;
+      display: inline-block;
+      width: 100px;
+      font-size: 14px;
+      color: #666;
+      line-height: 42px;
+      margin-left: 20px; }
+    .filter .filter1 ul {
+      max-width: 800px;
+      float: left; }
+      .filter .filter1 ul li {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 42px;
+        margin-right: 30px;
+        cursor: pointer; }
+        .filter .filter1 ul li a {
+          color: #666; }
+    .filter .filter1 .more1 {
+      display: inline-block;
+      width: 55px;
+      color: #666;
+      line-height: 42px;
+      margin-right: 20px;
+      cursor: pointer;
+      float: right; }
+      .filter .filter1 .more1 i {
+        display: inline-block;
+        float: right;
+        width: 16px;
+        height: 8px;
+        margin-top: 18px;
+        background: url(../../src/img/goodslist-icon.png) no-repeat -203px -34px; }
+  .filter .filter2 {
+    width: 1200px;
+    height: 41px;
+    border-bottom: 1px solid #ececec;
+    overflow: hidden; }
+    .filter .filter2 h5 {
+      float: left;
+      display: inline-block;
+      width: 100px;
+      font-size: 14px;
+      color: #666;
+      line-height: 42px;
+      margin-left: 20px; }
+    .filter .filter2 ul {
+      max-width: 800px;
+      float: left; }
+      .filter .filter2 ul li {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 42px;
+        margin-right: 30px;
+        cursor: pointer; }
+        .filter .filter2 ul li a {
+          color: #666; }
+    .filter .filter2 .more2 {
+      display: inline-block;
+      width: 55px;
+      color: #666;
+      line-height: 42px;
+      margin-right: 20px;
+      cursor: pointer;
+      float: right; }
+      .filter .filter2 .more2 i {
+        display: inline-block;
+        float: right;
+        width: 16px;
+        height: 8px;
+        margin-top: 18px;
+        background: url(../../src/img/goodslist-icon.png) no-repeat -203px -34px; }
+  .filter .filter3 {
+    width: 100%;
+    height: 42px;
+    border-bottom: 1px solid #ececec;
+    background-color: #ffffff;
+    z-index: 1; }
+    .filter .filter3 .filter-search {
+      padding-top: 6px;
+      overflow: hidden;
+      float: right; }
+      .filter .filter3 .filter-search input {
+        float: left;
+        width: 235px;
+        height: 14px;
+        border: 1px solid #ccc;
+        padding: 7px 12px;
+        outline: none; }
+      .filter .filter3 .filter-search #btn {
+        display: inline-block;
+        width: 60px;
+        height: 30px;
+        background-color: #ccc;
+        margin: 0;
+        border-radius: 0 3px 3px 0;
+        cursor: pointer; }
+        .filter .filter3 .filter-search #btn i {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          margin: 5px 20px;
+          background: url(../../src/img/goodslist-icon.png) no-repeat -469px -27px; }
+
+.goods {
+  width: 1200px;
+  margin: 0 auto; }
+  .goods .goods-l {
+    width: 960px;
+    float: left; }
+    .goods .goods-l .sort {
+      position: relative;
+      width: 100%;
+      height: 50px;
+      margin: 50px auto 20px;
+      background-color: #ececec;
+      border: 1px solid #cccccc; }
+      .goods .goods-l .sort .span1 {
+        border-right: 1px solid #cccccc;
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        float: left; }
+        .goods .goods-l .sort .span1 a {
+          display: block;
+          float: left;
+          height: 50px;
+          font-size: 14px;
+          color: #666666;
+          line-height: 50px;
+          border-left: 1px solid #dadada;
+          width: 88px;
+          text-align: center; }
+      .goods .goods-l .sort .span2 {
+        margin-left: 350px;
+        float: left; }
+        .goods .goods-l .sort .span2 a {
+          width: 115px; }
+          .goods .goods-l .sort .span2 a i {
+            display: inline-block;
+            float: left;
+            width: 14px;
+            height: 14px;
+            margin: 18px 5px 0 15px;
+            background: url(../../src/img/stock_06.jpg); }
+      .goods .goods-l .sort .num1 {
+        display: inline-block;
+        height: 100%;
+        margin-right: 20px;
+        float: right; }
+      .goods .goods-l .sort .num2 {
+        display: inline-block;
+        height: 100%;
+        margin-right: 20px;
+        float: right; }
+    .goods .goods-l .goods-goods {
+      overflow: hidden;
+      margin-bottom: 60px;
+      height: 2870px; }
+      .goods .goods-l .goods-goods ul {
+        width: 100%; }
+        .goods .goods-l .goods-goods ul li {
+          position: relative;
+          display: inline-block;
+          float: left;
+          width: 220px;
+          margin: 0 10px 50px; }
+          .goods .goods-l .goods-goods ul li a {
+            position: relative;
+            display: block;
+            width: 100%;
+            color: #666666; }
+            .goods .goods-l .goods-goods ul li a .goods-img {
+              position: relative;
+              width: 220px;
+              height: 220px;
+              margin-bottom: 5px;
+              border: 1px solid #ececec;
+              overflow: hidden; }
+              .goods .goods-l .goods-goods ul li a .goods-img img {
+                width: 100%;
+                height: 100%; }
+            .goods .goods-l .goods-goods ul li a .price {
+              display: inline-block;
+              width: 100%;
+              height: 24px;
+              font-size: 18px;
+              color: #e60012;
+              overflow: hidden; }
+            .goods .goods-l .goods-goods ul li a .name {
+              display: inline-block;
+              width: 100%;
+              max-height: 38px;
+              font-size: 14px;
+              color: #333333;
+              line-height: 20px;
+              overflow: hidden;
+              height: 38px; }
+          .goods .goods-l .goods-goods ul li .icon {
+            position: absolute;
+            left: 0;
+            display: inline-block;
+            width: 100%;
+            height: 22px;
+            color: #666;
+            line-height: 22px;
+            padding-left: 80px;
+            overflow: hidden;
+            background: url(../../src/img/liqun-icon.png) no-repeat 0 0;
+            font-size: 14px; }
+          .goods .goods-l .goods-goods ul li .buy {
+            position: relative;
+            width: 218px;
+            height: 40px;
+            border: 1px solid #ececec;
+            margin-top: 25px; }
+            .goods .goods-l .goods-goods ul li .buy input {
+              display: inline-block;
+              float: left;
+              width: 50px;
+              height: 38px;
+              font-size: 18px;
+              color: #ccc;
+              line-height: normal;
+              text-align: center;
+              border: none; }
+            .goods .goods-l .goods-goods ul li .buy .in {
+              position: absolute;
+              display: inline-block;
+              width: 30px;
+              height: 19px;
+              border-right: 1px solid #ececec;
+              cursor: pointer;
+              top: 0;
+              left: 50px;
+              background: url(../../src/img/goodslist-icon.png) no-repeat -127px -28px; }
+            .goods .goods-l .goods-goods ul li .buy .down {
+              position: absolute;
+              display: inline-block;
+              width: 30px;
+              height: 19px;
+              border-right: 1px solid #ececec;
+              cursor: pointer;
+              bottom: 0;
+              left: 50px;
+              background: url(../../src/img/goodslist-icon.png) no-repeat -194px -27px; }
+            .goods .goods-l .goods-goods ul li .buy a {
+              position: absolute;
+              top: 0;
+              right: -35px;
+              width: 138px;
+              height: 38px;
+              color: #ccc;
+              line-height: 38px;
+              padding: 0 20px;
+              cursor: pointer; }
+              .goods .goods-l .goods-goods ul li .buy a i {
+                float: left;
+                margin-right: 10px;
+                display: inline-block;
+                width: 22px;
+                height: 18px;
+                margin-top: 10px;
+                background: url(../../src/img/goodslist-icon.png) no-repeat -671px -28px; }
+    .goods .goods-l .page {
+      width: 563px;
+      height: 40px;
+      float: right; }
+      .goods .goods-l .page a {
+        float: left;
+        width: 78px;
+        height: 38px;
+        border: 1px solid #dadada;
+        text-align: center;
+        line-height: 40px; }
+      .goods .goods-l .page ul {
+        float: left; }
+        .goods .goods-l .page ul li {
+          float: left;
+          margin: 0 10px; }
+          .goods .goods-l .page ul li a {
+            width: 40px;
+            height: 40px; }
+      .goods .goods-l .page span {
+        float: left;
+        width: 440;
+        height: 40px;
+        text-align: center;
+        line-height: 40px; }
+        .goods .goods-l .page span .ye {
+          float: right;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          color: #666; }
+        .goods .goods-l .page span .sure {
+          float: right;
+          width: 60px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          color: #666; }
+  .goods .good-r {
+    width: 220px;
+    float: right; }
+    .goods .good-r .aa {
+      width: 220px;
+      margin-top: 50px;
+      overflow: hidden; }
+      .goods .good-r .aa ul li {
+        display: inline-block;
+        width: 220px;
+        height: 300px;
+        margin-bottom: 26px; }
 
 .footer {
   height: 327px;
@@ -295,3 +676,10 @@ a {
   position: absolute;
   top: 54px;
   left: 488px; }
+
+.goods-goods:hover img {
+  width: 225px;
+  height: 225px; }
+
+.goods-goods:hover .name {
+  color: red; }

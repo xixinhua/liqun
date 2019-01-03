@@ -4,6 +4,10 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../src/sass/index.css"/>
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/font.css">
+		<link rel="stylesheet" href="css/ups.css">
+		
 	</head>
 	<body>
 <div class="dabg">
@@ -74,17 +78,29 @@
 			</ul>
 		</div>
 	
-			<div id="slide1" class="container">
-				<ul>
-					<li><a href="http://www.1000phone.com" class="aa"><img src="../src/img/20181221085416029.jpg"></a></li>
-					<li><a href="http://www.1000phone.com" class="aa"><img src="../src/img/20181221085318231.jpg"></a></li>
-					<li><a href="http://www.1000phone.com" class="aa"><img src="../src/img/20181203150630468.jpg"></a></li>
-					<li><a href="http://www.1000phone.com" class="aa"><img src="../src/img/20181129173201662.jpg"></a></li>
-					<li><a href="http://www.1000phone.com" class="aa"><img src="../src/img/20181128174840389.jpg"></a></li>
-					<li><a href="http://www.1000phone.com" class="aa"><img src="../src/img/20181001103750563.jpg"></a></li>
-				</ul>
+			 <div id="ups-banner">
+			  <div class="swiper-container">
+					
+			    <div class="swiper-wrapper">
+						
+			      <div class="swiper-slide">
+			        <div class="img-fix"><div class="img-inner"><img src="../src/img/20181128174840389.jpg" class="img"></div></div>
+			      </div>
+						
+			      <div class="swiper-slide">
+			        <div class="img-fix"><div class="img-inner"><img src="../src/img/20181129173201662.jpg" class="img"></div></div>
+			      </div>
+						
+			      <div class="swiper-slide">
+			        <div class="img-fix"><div class="img-inner"><img src="../src/img/20181221085416029.jpg" class="img"></div></div>
+			      </div>
+						
+			    </div>
+					
+			    <div class="bottom-nav"><div class="swiper-pagination"></div></div>
+			    
+			  </div>
 			</div>
-			
 			
 			
 			<div class="nav-center-right">
@@ -503,6 +519,8 @@
 	</div>
 	<script src="jquery-1.10.1.js"></script>
 	<script src="js/jsES5min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/ups.js"></script>
 	<script type="text/javascript">
 		
 		new Slider("slide1");
